@@ -91,7 +91,7 @@ scons EXTRAS=../NVmain build/X86/gem5.opt
 > 必須跑 benchmark multiply 在 write through跟 write back
 
 - modified `base.cc`
-> 未完成
+> 不確定改的對不對，好像是錯的
 
 ### Q5. Bonus (10%)
 Design last level cache policy to reduce the energy consumption of pcm_based main memory 
@@ -99,7 +99,6 @@ Baseline:LRU
 > 可以去mem/cache的資料夾下找到兩個檔案一個叫做cache.cc另一個叫做base.cc，可以研究一下gem5底層的code是如何把資料寫入Memory。
 
 > 未完成
-
 
 ---
 
@@ -110,7 +109,6 @@ Baseline:LRU
 - documents
     - https://pages.cs.wisc.edu/~swilson/gem5-docs/index.html
     - https://www.gem5.org/documentation/learning_gem5/part2/helloobject/
-
 - MSHR: Miss Status and handling Register.
     - https://pages.cs.wisc.edu/~swilson/gem5-docs/classMSHR.html
     - https://groups.google.com/g/gem5-gpu-dev/c/kDvejmAIqKQ/m/qkXcj9ZrxS4J
