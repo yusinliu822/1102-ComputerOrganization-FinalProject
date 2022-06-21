@@ -4,9 +4,8 @@
 
 ### Q0. GEM5 + NVMAIN BUILD-UP (40%)
 照著PPT做就對了
-:::warning
-不要在windows 解壓縮 .tar.gz
-:::
+> warning
+> 不要在windows 解壓縮 `.tar.gz` 有機率檔案怪怪ㄉ 
 
 ### Q1. Enable L3 last level cache in GEM5 + NVMAIN (15%)
 1. modify
@@ -56,7 +55,7 @@ scons EXTRAS=../NVmain build/X86/gem5.opt
 --l3cache --l3_size=1MB --l3_assoc=2 --mem-type=NVMainMemory \
 --nvmain-config=../NVmain/Config/PCM_ISSCC_2012_4GB.config > cmdlog_2-way.txt
 ```
-
+> assoc=1 是 direct-map，不存在 assoc=1 是 full-way 這種事
 
 ### Q3. Modify last level cache policy based on frequency based replacement policy (15%)
 ![](https://i.imgur.com/X26eMZ0.png =300x)
