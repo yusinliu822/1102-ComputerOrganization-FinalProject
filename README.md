@@ -58,7 +58,7 @@ scons EXTRAS=../NVmain build/X86/gem5.opt
 > assoc=1 是 direct-map，不存在 assoc=1 是 full-way 這種事
 
 ### Q3. Modify last level cache policy based on frequency based replacement policy (15%)
-![](https://i.imgur.com/X26eMZ0.png =300x)
+[img](https://i.imgur.com/X26eMZ0.png)
 1. add
     - `gem5/src/mem/cache/replacement_policies/fb_rp.cc`
     - `gem5/src/mem/cache/replacement_policies/fb_rp.hh`
